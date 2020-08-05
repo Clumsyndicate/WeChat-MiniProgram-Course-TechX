@@ -1,0 +1,9 @@
+<!--components/card/card.wxml-->
+<view class="card" style="background-image: url('{{backgroundImg}}');">
+  <view class="overlay"></view>
+  <view class="container">
+    <view class="title"> {{ name }}</view>
+    <view class="content">{{ content }}</view>
+  </view>
+<slot></slot>
+</view>

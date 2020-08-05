@@ -1,0 +1,7 @@
+<!--components/section/section.wxml-->
+<view class="section">
+	<text wx:if="{{hasName}}" class="section-name">{{ sectionName }} </text>
+	<view class="content">
+		<slot></slot>
+	</view>
+</view>

@@ -1,0 +1,46 @@
+/**index.wxss**/
+.title {
+  font-size: x-large;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+  grid-template-rows: repeat(4, 50px);
+  grid-row-gap: 1rem;
+  grid-column-gap: 1rem;
+}
+
+.cell {
+  background-color: aqua;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+.cell:active {
+  background-color: red;
+}
+
+.display {
+  text-align: right;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: xx-large;
+  width: 70%;
+  margin-bottom: 3rem;
+  background-color: #f6f6f6;
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+
+footer {
+  margin-top: auto;
+  font-size: small;
+}
+
+.container {
+  font-family: 'Courier New', Courier, monospace;
+}

@@ -1,0 +1,33 @@
+<!--index.wxml-->
+<view class="container">
+	<image src="/assets/techx.png"></image>
+	<h1> TechX 峰会详情 </h1>
+
+	<section sectionName="ML系列课程">
+		<view class="class">
+
+			<card name="机械学习入门" content="实话实说，机械学习的入门，比能养狗还重要。" backgroundImg="../../assets/car.jpg" bindtap="bindTap"></card>
+			<card name="机械学习理论进阶" content="实话实说，机械学习的入门，比能养狗还重要。"></card>
+			<card name="机械学习应用入门" content="实话实说，机械学习的入门，比能养狗还重要。"></card>
+
+		</view>
+	</section>
+	<section sectionName="CS系列课程">
+		<view class="class">
+
+			<card name="Web开发" content="HMTL is a programming language"></card>
+			<card name="人机交互" content="The old man and the machine"></card>
+			<card name="机器人入门" content="The terminator"></card>
+
+		</view>
+	</section>
+	<section sectionName="CS系列课程">
+		<view class="class">
+
+			<card name="机械学习入门" content="实话实说，机械学习的入门，比能养狗还重要。"></card>
+			<card name="机械学习入门" content="实话实说，机械学习的入门，比能养狗还重要。"></card>
+			<card name="机械学习入门" content="实话实说，机械学习的入门，比能养狗还重要。"></card>
+
+		</view>
+	</section>
+</view>

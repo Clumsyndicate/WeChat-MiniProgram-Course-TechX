@@ -1,0 +1,14 @@
+section {
+  width: 100%;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: x-large;
+  color: white;
+}
+
+image {
+  width: 565rpx;
+  height: 231rpx;
+}

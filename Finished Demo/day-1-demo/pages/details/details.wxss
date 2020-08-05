@@ -1,0 +1,12 @@
+/* pages/details/details.wxss */
+
+.title {
+  color: white;
+  font-size: x-large;
+  margin-bottom: 2rem;
+}
+
+.detail {
+  color: lightgray;
+  padding: 2rem;
+}

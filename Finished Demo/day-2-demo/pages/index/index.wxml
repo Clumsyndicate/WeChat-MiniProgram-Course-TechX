@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<view class="container">
+	<view class="title">Jarvis the Calculator</view>
+	<view class="display">{{display}}</view>
+	<view class="buttons">
+		<view class="cell" bindtap="tapNum" data-num="7">7</view>
+		<view class="cell" bindtap="tapNum" data-num="8">8</view>
+		<view class="cell" bindtap="tapNum" data-num="9">9</view>
+		<view class="cell" bindtap="tapNum" data-num="+">+</view>
+
+		<view class="cell" bindtap="tapNum" data-num="4">4</view>
+		<view class="cell" bindtap="tapNum" data-num="5">5</view>
+		<view class="cell" bindtap="tapNum" data-num="6">6</view>
+		<view class="cell" bindtap="tapNum" data-num="-">-</view>
+
+		<view class="cell" bindtap="tapNum" data-num="1">1</view>
+		<view class="cell" bindtap="tapNum" data-num="2">2</view>
+		<view class="cell" bindtap="tapNum" data-num="3">3</view>
+		<view class="cell" bindtap="tapNum" data-num="*">*</view>
+
+		<view class="cell" bindtap="tapCE">CE</view>
+
+		<view class="cell" bindtap="tapNum" data-num="0">0</view>
+		<view class="cell" bindtap="bindEqualTap">=</view>
+
+	</view>
+		<footer> Johnson Zhou © All rights reserved. </footer>
+
+</view>
